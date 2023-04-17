@@ -1,0 +1,68 @@
+﻿
+body {
+    font-size: 12px;
+    font-family: 'Peng Huoth';
+}
+
+@page {
+    size: A4;
+    /*margin: 2px;*/
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+@media print {
+    html, body {
+        width: 210mm;
+        height: 297mm;
+    }
+
+    @page {
+        size: portrait
+    }
+    /* ... the rest of the rules ... */
+}
+
+#divBody {
+    width: 210mm;
+}
+
+.header {
+    border-collapse: collapse;
+    border-spacing: 0;
+    line-height: 0.3
+}
+
+#tblBody {
+    padding-top: 30px;
+}
+
+#tblBody td {
+    border: 1px solid;
+    padding: 5px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#tblFooter tr {
+    text-align: left;
+}
+
+.small {
+    font-size: 13pt;
+    font-family: 'Hanuman';
+    display: inline;
+}
+.smallest {
+    font-size: 10pt;
+    font-family: 'Hanuman';
+    display: inline;
+}
+.small_bold {
+    font-size: 13pt;
+    font-family: 'Hanuman';
+    display: inline;
+    font-weight: bold;
+}

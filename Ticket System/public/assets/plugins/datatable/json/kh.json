@@ -1,0 +1,24 @@
+{
+	"sEmptyTable":     "មិនមានទិន្នន័យ",
+	"sInfo":           "បង្ហាញ  _START_ ទៅ _END_ នៃ _TOTAL_ ទិន្នន័យ",
+	"sInfoEmpty":      "បង្ហាញ  0 ទៅ 0 នៃ 0 ទិន្នន័យ",
+	"sInfoFiltered":   "(ស្វែងរកពីទិន្នន័យសរុបចំនួន _MAX_)",
+	"sInfoPostFix":    "",
+	"sInfoThousands":  ",",
+	"sLengthMenu":     "បង្ហាញ _MENU_ ក្នុងមួយទំព័រ",
+	"sLoadingRecords": "កំពុងទាញទិន្នន័យ...",
+	"sProcessing":     "កំពុងដំណើរការ...",
+	"sSearch":         "ស្វែងរក:",
+	"sZeroRecords":    "រកមិនឃើញទិន្នន័យដែលបានស្វែងរក",
+	"oPaginate": {
+		"sFirst":    "ទំព័រដំបូង",
+		"sLast":     "ទំព័រ​ចុងក្រោយ",
+		"sNext":     "ទំ​ព​រ័​បន្ទាប់",
+		"sPrevious": "ទំព័រ​មុន"
+	},
+	"oAria": {
+		"sSortAscending":  ": ដំណើរការនៃការតម្រៀបជួរឈរពីតូចទៅធំ",
+		"sSortDescending": ": ដំណើរការនៃការតម្រៀបជួរឈរពីធំទៅតូច"
+	}
+}
+
